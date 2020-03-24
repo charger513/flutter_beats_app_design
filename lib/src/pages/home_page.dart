@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_beats_app_design/src/widgets/cards_view.dart';
 import 'package:flutter_beats_app_design/src/widgets/custom_appbar.dart';
 import 'package:flutter_beats_app_design/src/widgets/fondo_circular.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -16,7 +17,8 @@ class HomePage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   CustomAppBar(),
-                  _Header()
+                  _Header(),
+                  CardsView()
                 ],
               ),
             ),
